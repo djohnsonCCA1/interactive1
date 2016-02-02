@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+	font-family: Helvetica;
+	color: #303030;
+	font-size: 20pt;
+
+}
+
+h3 {
+	color: #FF0000;
+	font-size: 100pt;
+	letter-spacing: 80px;
+	text-decoration: overline;
+	text-align: center;  
+	background-color: white;
+
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20pt;
+	color: black;
+
+}
+
+li {
+	color:#FF6633;
+	text-align: center;
+}
