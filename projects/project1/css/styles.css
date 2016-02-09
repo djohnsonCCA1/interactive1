@@ -1,0 +1,189 @@
+
+body {
+	background-color: white;
+	width:80%;
+	}
+
+
+
+#padding{
+	width: 950px;
+	height: 3px;
+	background-color:black;
+	position: absolute;
+	top: 670px;
+	left: 199px;
+
+}
+
+#padding2{
+	width: 950px;
+	height: 3px;
+	background-color:black;
+	position: absolute;
+	top: 3275px;
+	left: 195px;
+
+}
+#arrow{
+	position: absolute;
+	top: 530px;
+	left: 462px;
+	
+}
+
+
+#padding3{
+	width: 950px;
+	height: 3px;
+	background-color:black;
+	position: absolute;
+	top: 3635px;
+	left: 195px;
+
+}
+#padding4{
+	width: 70px;
+	height: 70px;
+	background-color:white;
+	position: absolute;
+	top: 670px;
+	left: 647px;
+
+}
+
+
+
+#massimo{
+	font-size:30pt;
+	font-family: helvetica;
+	font-weight: bold;
+	color: black;
+	background-color:#ffffe5;
+	position: absolute;
+	top: 130px;
+	left: 532px;
+	width: 620px;
+	padding-bottom: 4pt;
+	padding-left: 4pt;
+	margin: auto;
+	z-index: 1;
+	margin: auto;
+
+}
+
+
+#intro{
+	font-family: helvetica;
+	font-size: 10pt;
+	color: black;
+	position: absolute;
+	left: 625px;
+	top:290px;
+	height: 210px;
+	width: 504px;
+	margin: auto;
+
+}
+
+
+
+#image{
+	float:left;
+	width: 500px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+	margin: auto;
+
+
+}
+
+#text{
+	font-family: helvetica;
+	font-size: 14pt;
+	color: black;
+	background-color:;
+	width: 700px;
+	text-align: left;
+	position: absolute;
+	top: 810px;
+	left:320px;
+	margin: auto;
+
+}
+
+#text2{
+	font-family: helvetica;
+	font-size: 14pt;
+	color: black;
+	background-color:;
+	width: 700px;
+	text-align: left;
+	position: absolute;
+	top: 3645px;
+	left:320px;
+	margin: auto;
+}
+
+
+#pic1{
+	position: absolute;
+	top: 3200px;
+	float: left;
+}
+
+#pic1 img{
+	position: absolute;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#pic1 img.bottom:hover{
+	opacity:0;
+}
+
+#pic2{
+	position: absolute;
+	top: 3200px;
+	left: 320px;	
+	
+}
+
+#pic2 img{
+	position: absolute;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#pic2 img.bottom:hover{
+	opacity:0;
+}
+
+#pic3{
+	position: absolute;
+	top: 3200px;
+	left: 630px;	
+	
+}
+
+#pic3 img{
+	position: absolute;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+#pic3 img.bottom:hover{
+	opacity:0;
+}
+#jump{
+	position: absolute;
+	top:300px; 
+	left:400pxs;
+}
+
