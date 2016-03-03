@@ -1,11 +1,8 @@
-
-body {
+ body {
 	background-color: white;
 	width:80%;
-	}
-
-
-
+}
+	
 #padding{
 	width: 950px;
 	height: 3px;
@@ -106,7 +103,7 @@ body {
 	width: 700px;
 	text-align: left;
 	position: absolute;
-	top: 810px;
+	top: 795px;
 	left:320px;
 	margin: auto;
 
@@ -123,6 +120,7 @@ body {
 	top: 3645px;
 	left:320px;
 	margin: auto;
+	padding-bottom: 85px;
 }
 
 
@@ -186,4 +184,5 @@ body {
 	top:300px; 
 	left:400pxs;
 }
+
 

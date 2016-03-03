@@ -1,0 +1,169 @@
+body{
+	background-color: #a65959;
+
+}
+
+#container{
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	
+}
+
+#black{
+	height: 30px;
+	width: 1320px;
+	background-color: black;
+	margin: 20px;
+
+}
+
+#container2{
+	position: absolute;
+	top:0px;
+	left:45px;
+	z-index: 0;
+}
+
+
+#blue{
+	height: 1850px;
+	width: 30px;
+	background-color:#f4fffd;
+	float: left;
+	margin: 18px;
+	margin-bottom: 3000px;
+
+}
+
+#pic1{
+	position: fixed;
+	top: 50px;
+	left:62px;
+	width: 20px;
+	height: 20px;
+
+}
+
+#box{
+	background-color: #ccffee;
+	position: absolute;
+	top: 500px;
+	left:300px;
+	width: 700px;
+	height: 432px;
+	z-index: 2;
+	opacity: .4;
+
+}
+
+
+
+#container3{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	z-index: 3;
+}
+
+#red{
+	height: 5px;
+	width: 1320px;
+	background-color: red;
+	margin: 10px;
+
+}
+
+#container4{
+	position: absolute;
+	top: 900px;
+	left: 47px;
+	z-index: 2;
+
+}
+#circle{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background-color: #ffffb3;
+	float: left;
+	margin: 5px;
+
+
+}
+
+#pic3{
+	position: absolute;
+	top: 1500px;
+	left:20px;
+	z-index: 0;
+}
+
+#text{
+	
+
+	position: absolute;
+	font-size: 50pt;
+	top: 2900px;
+	left: 200px;
+	z-index: 4;
+}
+
+
+#container5{
+	
+	width: 1170px;
+	height: 6000px;
+	position: absolute;
+	top: 1900px;
+	left: 0px;
+	z-index: 0;
+
+} 
+
+#triangle{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #a65959;
+	float: left;
+
+	}
+#triangle2{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #a65959;
+	float: left;
+
+	}
+
+#triangle3{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #a65959;
+	float: left;
+
+	}
+
+	#container6{
+	width: 400px;
+	height: 2000px;
+	position: absolute;
+	top: 3000px;
+	left: 45px;
+
+	}
+
+	#pattern{
+		float: left;
+		z-index: -5;
+	}
+
+
+
+

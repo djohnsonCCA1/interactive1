@@ -1,0 +1,43 @@
+#background{
+	width:850px;
+	height:500px;
+	background-color: red;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+#container{
+	width: 250px;
+	height: 450px;
+	background-color: white;
+	position: absolute;
+	left:75px;
+	top: 75px;
+}
+
+#containertwo{
+	width: 250px;
+	height: 450px;
+	background-color: white;
+	position: absolute;
+	left:275px;
+	top: 0px;
+
+}
+#containerthree{
+	width: 250px;
+	height: 450px;
+	background-color: white;
+	position: absolute;
+	left:275px;
+	top: 0px;
+
+}
+#row{
+	width: 20px;
+	height: 30px;
+	background-color: red;
+	margin: 1px;
+	position: relative;
+}

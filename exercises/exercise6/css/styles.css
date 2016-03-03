@@ -1,0 +1,94 @@
+#one{
+	width:140px;
+	height:500px;
+	background-color: red; 
+}
+#two{
+	width:600px;
+	height:180px;
+	background-color: red;
+	margin-left: 10px;
+	position: absolute;
+	top: 8px;
+	left:143px;
+}
+#three{
+	width:140px;
+	height:500px;
+	background-color: red;
+	position: absolute;
+	top:8px;
+	left:758px;
+
+}
+
+#four{
+	width:300px;
+	height:315px;
+	background-color: red;
+	position: absolute;
+	top:193px;
+	left: 153px;
+
+}
+
+#five{
+	width:295px;
+	height:315px;
+	background-color: red;
+	position: absolute;
+	top:193px;
+	left: 458px;
+	
+
+}
+
+#six{
+	width:140px;
+	height:500px;
+	background-color: red;
+	position: absolute;
+	top: 513px;
+	left:8px;
+
+}
+
+#seven{
+	width:300px;
+	height:315px;
+	background-color: red;
+	position: absolute;
+	top:513px;
+	left: 153px;
+
+}
+
+#eight{
+	width:295px;
+	height:315px;
+	background-color: red;
+	position: absolute;
+	top:513px;
+	left: 458px;
+
+}
+
+#nine{
+	width:140px;
+	height:500px;
+	background-color: red;
+	position: absolute;
+	top:513px;
+	left:758px;
+
+}
+
+#ten{
+	width:600px;
+	height:180px;
+	background-color: red;
+	margin-left: 10px;
+	position: absolute;
+	top: 833px;
+	left:143px;
+}

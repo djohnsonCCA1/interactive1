@@ -1,0 +1,58 @@
+#header{
+	width: 700px;
+	height: 120px;
+	position: absolute;
+	left: 50px;
+	top:50px;
+	background-color: red;
+}
+#one{
+	width: 550px;
+	height: 400px;
+	position: absolute;
+	left: 50px;
+	top:240px;
+	background-color: red;
+}
+#two{
+	width: 136px;
+	height: 200px;
+	position: absolute;
+	left: 610px;
+	top:240px;
+	background-color: red;
+}
+#three{
+	width: 550px;
+	height: 30px;
+	position: absolute;
+	left: 50px;
+	top:650px;
+	background-color: red;
+
+}
+#four{
+	width: 550px;
+	height: 400px;
+	position: absolute;
+	left: 50px;
+	top:750px;
+	background-color: red;
+}
+#five{
+	width: 136px;
+	height: 200px;
+	position: absolute;
+	left: 610px;
+	top:750px;
+	background-color: red;
+}
+#six{
+	width: 550px;
+	height: 30px;
+	position: absolute;
+	left: 50px;
+	top:1160px;
+	background-color: red;
+
+}
