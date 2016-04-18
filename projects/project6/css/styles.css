@@ -1,0 +1,638 @@
+
+#image{
+	top:85px;
+	position: absolute;
+	left: 1650px;
+	z-index: -100
+}
+
+
+
+
+#box{
+	width: 1350px;
+	height: 650px;
+	background-color: black;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index:0;
+	opacity:
+	
+	
+}
+
+#box2{
+	width:10px;
+	height: 10px;
+	position: absolute;
+	top:0px;
+	left:7550px;
+	background-color: white;
+}
+
+
+
+#arrow{
+	position: absolute;
+	top: 600px;
+	left:1310px;
+	z-index: 10;
+	
+}
+
+
+
+#text1{
+	position: absolute;
+	left: 614px;
+	top:149px;
+	font-size: 15pt;
+	font-family: courier;
+	color:white;
+	width: 150px;
+	height: 20px;
+	
+}
+
+#text2{
+	position: absolute;
+	left: 598px;
+	top:470px;
+	font-size: 13pt;
+	font-family: courier;
+	color:white;
+	width: 170;
+	height: 20;
+	
+}
+
+#text3{
+	position: absolute;
+	left: 568px;
+	top:205px;
+	font-size: 10pt;
+	font-family: courier;
+	color:white;
+	width: 230;
+	height: 279;
+	z-index: -1;
+	color: white;
+	font-weight: thin;
+	line-height:1.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hoveblack */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 253px;
+	height: 279px;
+	position: absolute;
+	
+	top:183px;
+	left:553px;
+	
+
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 2s;
+	transform-style: preserve-3d;
+
+	position: absolute;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: visible;
+
+	
+	top:0;
+	left: 0;
+
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 0;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+.d{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	position: absolute;
+	top: 88px;
+	left: 1798px;
+	height:450px;
+	
+}
+
+.r{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	position: absolute;
+	top: 96px;
+	left: 1812px;
+	height:450px;
+
+}
+
+.u{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	position: absolute;
+	top: 110px;
+	left: 1825px;
+	height:450px;
+}
+
+.n{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	position: absolute;
+	top: 114px;
+	left: 1844px;
+	height:450px;
+	
+}
+
+.k{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	position: absolute;
+	top: 122px;
+	left: 1860px;
+	height:450px;
+}
+
+
+
+
+
+
+
+
+
+.f1{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	position:absolute;
+	top:189px;
+	left:1935px;
+	color: black;
+}
+
+
+.f2{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	position: absolute;
+	top:270px;
+	left:2080px;
+}
+.f3{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:390px;
+	left:2048px;
+	
+}
+.f4{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:470px;
+	left:1893px;
+}
+.f5{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:380px;
+	left:1899px;
+}
+.f6{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	position: absolute;
+	top:550px;
+	left:2033px
+}
+
+.fif1{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:189px;
+	left:2945px
+
+}
+
+.fif2{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:294px;
+	left:2918px
+
+}
+
+.fif3{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:399px;
+	left:2848px
+
+}
+
+.fif4{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:504px;
+	left:2747px
+
+}
+.fif5{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:188px;
+	left:3089px
+
+}
+.fif6{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:551px;
+	left:2652px
+
+}
+.fif7{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:242px;
+	left:3028px
+
+}
+
+.fif8{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:136px;
+	left:3223px
+
+}
+.fif9{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:452px;
+	left:2733px
+
+}
+.fif10{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top:346px;
+	left:2952px
+
+}
+
+.seventeen{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 585px;
+	left:2890px;
+}
+/*.eighteen{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 500px;
+	left: 840px;
+}
+.ninteen{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 500px;
+	left: 900px;
+}
+.twenty{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 500px;
+	left: 970px;
+}
+.twentyone{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 700px;
+	left: 600px;
+}
+.twentytwo{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 700px;
+	left: 650px;
+
+}
+.twentythree{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 700px;
+	left: 710px;
+}
+.twentyfour{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 700px;
+	left: 760px;
+}
+.twentyfive{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 800px;
+	left: 600px;
+	transform:rotate(-18deg); 
+}
+
+.l{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 790px;
+	left: 650px;
+	
+}
+
+.pias{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 799px;
+	left: 665px;
+	transform:rotate(18deg)
+
+}
+.twentysix{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 880px;
+	left: 560px;
+}
+.twentyseven{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 880px;
+	left: 580px;
+}
+.twentyeight{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 880px;
+	left: 645px;
+}
+.twentynine{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 880px;
+	left: 715px;
+}
+.thirty{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 910px;
+	left: 560px;
+}
+.thirtyone{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 910px;
+	left: 600px;
+}
+.thirtytwo{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 910px;
+	left: 660px;
+}
+.thirtythree{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 910px;
+	left: 725px;
+}
+.thirtyfour{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 1000px;
+	left: 90px;
+}
+.thirtyfive{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 1000px;
+	left: 190px;
+}
+.thirtysix{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+ 	position: absolute;
+	top: 1000px;
+	left: 270px;
+}
+.thirtyseven{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 1000px;
+	left: 320px;
+}
+.thirtyeight{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 1050px;
+	left: 100px;
+}
+.thirtynine{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	position: absolute;
+	top: 1050px;
+	left: 130px;
+}
+.fourty{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 1050px;
+	left: 150px;
+}
+.fourtyone{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 1050px;
+	left: 210px;
+}
+.fourtytwo{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 1050px;
+	left: 260px;
+}
+.fourtythree{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	float: left;
+	position: absolute;
+	top: 1090px;
+	left: 120px;
+}
+.fourtyfour{
+	font-size:15pt;
+	font-family:courier;
+	color:black;
+	position: absolute; 
+	top: 1090px;
+	left: 160px;
+}
